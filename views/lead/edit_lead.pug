@@ -1,5 +1,3 @@
-extends ../layout
-
 block content
   form(action="/lead/" + lead.id + "/edit", method="POST")
     input(name="lead_email", type="email", placeholder="Enter your email address", value=lead.email)
